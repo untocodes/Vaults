@@ -3,13 +3,17 @@ Simple Vault plugin for Bukkit/Spigot.
 
 # Commands
 /vault [ID] Open a vault
+
+
 /adminvault [ID] [USERNAME] Open somebody others vault.
+
+
 
 # Permissions
 
 /vault = vaults.use.[AMOUNT] 
-/adminvault = vaults.admin
 
+/adminvault = vaults.admin
 
 # Setup
 
