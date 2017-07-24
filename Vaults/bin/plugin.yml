@@ -1,0 +1,13 @@
+main: fi.unto55.vaults.Main
+name: Vaults
+version: 1.0
+author: unto55
+description: Vaults
+commands:
+  vault:
+    description: Open a vault
+    usage: /vault
+  adminvault:
+    description: Open a vault
+    usage: /vault
+

@@ -1,0 +1,6 @@
+
+  mysql.user: mysqluser
+  mysql.pass: mysqlpass
+  mysql.host: mysqlhost
+  mysql.port: 3306
+  mysql.db: vaults
