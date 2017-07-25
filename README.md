@@ -21,11 +21,11 @@ Simple Vault plugin for Bukkit/Spigot.
 **``/adminvault vaults.admin``**
 
 ## Setup
-
-1. Add the plugin file to the plugins folder.
-2. Start the server.
-3. Edit the plugins/Vaults/config.yml to include your mysql details.
-3. Start the server. Enjoy!
+1. Download or build the plugin.
+2. Add the plugin file to the plugins folder.
+3. Start the server.
+4. Edit the plugins/Vaults/config.yml to include your mysql details.
+5. Start the server. Enjoy!
 
 ## Development Setup
 
