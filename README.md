@@ -1,6 +1,11 @@
 # Vaults
 Simple Vault plugin for Bukkit/Spigot. 
 
+## Features
+ 
+- Open Source.
+- Easy to use.
+
 ## Commands
 **``/vault [ID]``** - Open a vault
 
