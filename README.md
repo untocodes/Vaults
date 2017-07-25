@@ -2,18 +2,18 @@
 Simple Vault plugin for Bukkit/Spigot. 
 
 ## Commands
-/vault [ID] Open a vault
+**``/vault [ID]``** - Open a vault
 
 
-/adminvault [ID] [USERNAME] Open somebody others vault.
+**`/adminvault [ID] [USERNAME]`** - Open another player's vault.
 
 
 
 ## Permissions
 
-/vault vaults.use.[AMOUNT] 
+**`/vault vaults.use.[AMOUNT]`**
 
-/adminvault vaults.admin
+**``/adminvault vaults.admin``**
 
 ## Setup
 
@@ -32,4 +32,4 @@ Simple Vault plugin for Bukkit/Spigot.
 
 ## Licence
 
-See the LICENSE file.
+See the [LICENSE](https://github.com/untocodes/Vaults/blob/LICENSE) file.
