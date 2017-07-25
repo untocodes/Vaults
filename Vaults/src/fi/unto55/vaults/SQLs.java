@@ -16,7 +16,7 @@ public class SQLs {
     public static String USER = Main.getPlugin(Main.class).getConfig().getString("mysql.user");
     public static String PASS =Main.getPlugin(Main.class).getConfig().getString("mysql.pass");
     final static String url = "jdbc:mysql://" + HOST + ":" + Main.getPlugin(Main.class).getConfig().getString("mysql.port") + "/" + DATABASE;
-    static String createTable = "CREATE TABLE IF NOT EXISTS `inventories` ( `vaultid` varchar(999) NOT NULL,`base` longtext NOT NULL PRIMARY KEY (`vaultid`)) ENGINE=MyISAM DEFAULT CHARSET=latin1;";
+    static String createTable = "CREATE TABLE IF NOT EXISTS `inventories` ( `vaultid` VARCHAR(999) NOT NULL, `base`    LONGTEXT NOT NULL, PRIMARY KEY (`vaultid`) ) engine=myisam DEFAULT charset=latin1;";
     static boolean connected = false;
     static Connection connection;
     static String nullinvbase = "rO0ABXcEAAAAG3BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcA==";
@@ -41,15 +41,16 @@ public class SQLs {
             @SuppressWarnings("unused")
 			boolean connected = false;
         }
-        if(connected)  {
         try {
-        	table = connection.prepareStatement(createTable);
-               table.executeUpdate();
+        	PreparedStatement myPreparedStatement = connection.prepareStatement(createTable);
+
+        	myPreparedStatement.executeUpdate();
            } catch (SQLException e) {
                e.printStackTrace();
            }
         }
-    }
+   
+
     public static void Disconnect() {
     	try {
             if(connection!=null && !connection.isClosed()){ 
