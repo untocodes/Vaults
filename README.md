@@ -32,4 +32,4 @@ Simple Vault plugin for Bukkit/Spigot.
 
 ## Licence
 
-See the [LICENSE](https://github.com/untocodes/Vaults/blob/LICENSE) file.
+See the [LICENSE](https://github.com/untocodes/Vaults/blob/master/LICENSE) file.
